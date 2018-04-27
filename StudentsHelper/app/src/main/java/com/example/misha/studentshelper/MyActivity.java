@@ -2,6 +2,11 @@ package com.example.misha.studentshelper;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Spinner;
+import android.widget.TextView;
+
 
 public class MyActivity extends AppCompatActivity {
 
@@ -9,5 +14,12 @@ public class MyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+    }
+    public void whenPressChoose(View view){
+        TextView textViewGroup = (TextView) findViewById(R.id.textView3);
+        Spinner spinnerGroup = (Spinner) findViewById(R.id.spinner3);
+        textViewGroup.setVisibility(View.VISIBLE);
+        spinnerGroup.setVisibility(View.VISIBLE);
+
     }
 }
