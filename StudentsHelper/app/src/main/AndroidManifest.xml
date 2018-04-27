@@ -16,9 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".mainActivity">
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-    <permission android:name="android.permission.INTERNET"></permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 </manifest>
