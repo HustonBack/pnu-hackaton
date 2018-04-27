@@ -14,10 +14,7 @@ public class mainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_my);
     }
     public void whenPressChoose(View view){
-        TextView textViewGroup = (TextView) findViewById(R.id.textView3);
-        Spinner spinnerGroup = (Spinner) findViewById(R.id.spinner3);
-        textViewGroup.setVisibility(View.VISIBLE);
-        spinnerGroup.setVisibility(View.VISIBLE);
+
 
     }
 }
